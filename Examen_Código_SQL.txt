@@ -1,0 +1,16 @@
+-----------------Código SQL---------------------------------------
+
+create schema calc;
+create table Registros(
+	curp varchar (18) not null,
+	nombre varchar (20),
+    apellido1 varchar (25),
+    apellido2 varchar (25),
+    fechaNac varchar (25),
+    rfc varchar (15),
+    primary key (curp)
+);
+select * from registros;
+
+
+-------------------------------------------------------------------
